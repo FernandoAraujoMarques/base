@@ -6,8 +6,6 @@ resources:
 - deployment.yaml
 - namespace.yaml
 
-namespace: nginx-argocd
-
 images:
 - name: nginx
   newName: nginx
